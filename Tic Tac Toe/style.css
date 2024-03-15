@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital@0;1&display=swap');
+
+body{
+    background-color: #bbe4e9;
+    color: #142d4c;
+}
+
+.gameContainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width:225px; 
+    margin: auto;
+}
+
+.item{
+    width: 80px;
+    height: 80px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    cursor:pointer;
+    font-size: 60px;
+    text-align: center;
+
+}
+
+.container{
+    font-family: "Exo 2", sans-serif;
+    text-align: center;
+   
+}
+.restartBtn{
+    background-color: #79c2d0;
+    height: 40px;
+    width: 100px;
+    border: 0;
+    border-radius: 10px;
+}
